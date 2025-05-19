@@ -25,31 +25,31 @@ section {
   margin-top: 1rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-/* Contact Form Styling */
+/* Compact Contact Form Styling */
 .contact {
-  margin-top: 40px;
+  margin-top: 20px; /* less space above */
 }
 
 .contact form {
-  margin-top: 20px;
+  margin-top: 10px;
   background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 15px; /* smaller padding */
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
 }
 
 .contact label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 6px; /* less space */
   font-weight: bold;
 }
 
 .contact input,
 .contact textarea {
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  padding: 8px; /* smaller padding */
+  margin-top: 3px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: inherit;
@@ -59,14 +59,13 @@ section {
 .contact button {
   background-color: #007bff;
   color: white;
-  padding: 12px 20px;
+  padding: 10px 16px; /* smaller button */
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .contact button:hover {
   background-color: #0056b3;
 }
-
