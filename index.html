@@ -36,12 +36,26 @@
   </section>
 
   <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: yourname@example.com</p>
-  </section>
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:oleg21282@mail.ru">oleg21282@mail.ru</a></p>
+  <p>Phone: <a href="tel:+77719716621">+7 771 971 66 21</a></p>
 
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
-</body>
-</html>
+  <form action="https://formspree.io/f/yourFormID" method="POST">
+    <label>
+      Your Name:<br>
+      <input type="text" name="name" required>
+    </label><br><br>
+
+    <label>
+      Your Email:<br>
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>
+      Message:<br>
+      <textarea name="message" rows="5" required></textarea>
+    </label><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
